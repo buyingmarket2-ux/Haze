@@ -1,0 +1,41 @@
+{
+  "name": "gametfm",
+  "version": "2.0.0",
+  "description": "A browser-like web proxy built with Svelte and Node.js.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "vite build",
+    "start": "NODE_ENV=production node server/index.js"
+  },
+  "dependencies": {
+    "@fontsource/public-sans": "^5.3.0",
+    "@lucide/svelte": "^1.31.0",
+    "@mercuryworkshop/bare-mux": "^2.1.9",
+    "@mercuryworkshop/epoxy-transport": "^2.1.28",
+    "@mercuryworkshop/epoxy-transport-3": "npm:@mercuryworkshop/epoxy-transport@3.0.1",
+    "@mercuryworkshop/libcurl-transport": "^1.5.2",
+    "@mercuryworkshop/libcurl-transport-2": "npm:@mercuryworkshop/libcurl-transport@2.0.5",
+    "@mercuryworkshop/scramjet": "2.0.67-alpha.2",
+    "@mercuryworkshop/scramjet-controller": "0.0.14",
+    "@mercuryworkshop/wisp-js": "^0.4.1",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+    "argon2": "^0.45.1",
+    "better-sqlite3": "^13.0.3",
+    "compression": "^1.8.1",
+    "express": "^5.2.1",
+    "flag-icons": "^7.5.0",
+    "multer": "^2.2.0",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "sharp": "^0.35.3",
+    "svelte": "5.56.8",
+    "vite": "^8.2.1"
+  }
+}
